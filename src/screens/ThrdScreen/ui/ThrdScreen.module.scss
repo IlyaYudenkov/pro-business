@@ -1,0 +1,68 @@
+.ThrdScreen{
+    margin: 130px 0 160px;
+
+    @media (width <= 1024px) {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+.titleWrapper{
+    position: relative;
+}
+
+.h2{
+    font-family: var(--ff-grotesk);
+    font-weight: 300;
+    font-size: var(--fz-xl);
+    line-height: 1.2;
+    letter-spacing: 0.54px;
+    color: color-mix(in srgb, var(--c-gray) 40%, #000);
+
+    @media (width <= 1440px) {
+        font-size: var(--fz-lxx);
+    }
+
+    @media (width <= 425px) {
+        font-size: var(--fz-lx);
+    }
+}
+
+.whiteThin, .whiteBold {
+    color: var(--c-white);
+}
+
+.whiteBold {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.ruleCardsWrapper{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 1518px;
+    gap: 15px;
+
+    
+    @media (width <= 1518px) {
+        max-width: 1151px;
+    }
+
+    @media (width <= 1024px) {
+        overflow-x: auto;
+        margin: unset;
+        margin-top: 40px;
+        padding: 0 calc((100% - 900px) / 2);
+        max-width: 100%;
+    }
+
+    @media (width <= 900px) {
+        padding: 0 calc((100% - 720px) / 2);
+    }
+
+    @media (width <= 720px) {
+        margin-top: 20px;
+        padding: 0 15px;
+    }
+}

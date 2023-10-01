@@ -1,0 +1,39 @@
+.inheritance{
+    all: inherit;
+}
+
+.bp375 {
+    @media (width > 375px) {
+        display: none ;
+    }   
+}
+
+.bp425 {
+    @media (width > 425px) {
+        display: none ;
+    }   
+}
+
+.bp768 {
+    @media (width > 768px)  {
+        display: none;
+    }   
+}
+
+.bp1024 {
+    @media (width >= 1024px)  {
+        display: none;
+    }   
+}
+
+.bpmin1024 {
+    @media (width <= 1024px)  {
+        display: none;
+    }   
+}
+
+.bpDesktop {
+    @media (width <= 768px) {
+        display: none ;
+    }   
+}

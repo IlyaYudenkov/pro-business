@@ -1,0 +1,73 @@
+@font-face {
+    src: url('NTSomic-Bold.woff2') format('woff2');
+    font-family: 'NT Somic';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('NTSomic-Medium.woff2') format('woff2');
+    font-family: 'NT Somic';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('NTSomic-Regular.woff2') format('woff2');
+    font-family: 'NT Somic';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('RG-StandardBold.woff2') format('woff2');
+    font-family: 'RG Book' ;
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('RG-SpaciousBlackItalic.woff2') format('woff2');
+    font-family: 'RG Book';
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+    
+}
+
+@font-face {
+    src: url('RG-SpaciousBook.woff2') format('woff2');
+    font-family: 'RG Book' ;
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('RG-SpaciousBook.woff2') format('woff2');
+    font-family: 'RG BookRegular' ;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('RG-SlimBook.woff2') format('woff2');
+    font-family: 'RG Book';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url('Mersad-Bold.woff2') format('woff2');
+    font-family: 'Mersad Bold';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    
+}

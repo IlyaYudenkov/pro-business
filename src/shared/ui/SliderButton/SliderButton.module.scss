@@ -1,0 +1,57 @@
+.SliderButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    transition: .1s ease-in;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+
+    @media (width <= 425px) {
+        width: 45px;
+        height: 45px;
+
+        svg {
+            transform: scale(.7);
+        }
+    }
+}
+
+.white {
+    border: 2px solid rgb(255 255 255 / 20%);
+    background: rgb(255 255 255 / 20%);
+
+    svg {
+        stroke: var(--c-white);
+        transition: .1s ease-in;
+    }
+
+    &:hover {
+        background: var(--c-white);
+
+        svg {
+            stroke: var(--c-black);
+        }
+    }
+}
+
+.green {
+    border: 2px solid #FFF;
+    background: transparent;
+
+    /* stylelint-disable-next-line no-descending-specificity */
+    svg {
+        stroke:  var(--c-green); 
+    }
+
+    &:hover {
+        background: var(--c-white);
+        
+    }
+}
+
+.rotate {
+    transform: rotate(180deg);
+}

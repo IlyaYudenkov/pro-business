@@ -1,0 +1,14 @@
+.videoSlider {
+    .swiper-slide {
+        opacity: .5;
+        transform: scale(.95);
+        transition:all 200ms linear;
+
+        &.swiper-slide-active{
+            z-index: 10;
+            background: var(--c-lightdark);
+            opacity: 1;
+            transform: scale(1)
+        }
+    }
+}

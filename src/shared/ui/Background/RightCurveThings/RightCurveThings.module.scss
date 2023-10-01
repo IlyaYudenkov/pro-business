@@ -1,0 +1,79 @@
+.RightCurveThings{
+    position: absolute;
+    right: 3%;
+    top: 65%;
+    z-index: -1;
+
+    @media (width <= 1440px) {
+        right: 0.5%;
+        top: 14%;
+
+        svg {
+            width: 500px;
+        }
+    }
+
+    @media (width <= 1024px) {
+        display: none;
+    }
+}
+
+.stone {
+    position: absolute;
+    right: -100px;
+    top: -20px;
+
+    @media (width <= 1440px) {
+        right: -60px;
+        top: 50px;
+        width: 168px;
+    
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+.circle {
+    position: absolute;
+    right: 130px;
+    top: 200px;
+
+    @media (width <= 1440px) {
+        top: 230px;
+        width: 145px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+.cylinder {
+    position: absolute;
+    right: -50px;
+    bottom: -100px;
+
+    @media (width <= 1440px) {
+        right: -20px;
+        bottom: -10px;
+        width: 145px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+.backgroundItems {
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    z-index: -2;
+}

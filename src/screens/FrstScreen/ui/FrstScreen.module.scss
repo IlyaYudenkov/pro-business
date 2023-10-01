@@ -1,0 +1,11 @@
+.FrstScreen{
+    padding-top: 125px;
+
+    @media (width <= 425px) {
+        padding-top: 80px;
+    }
+}
+
+.sliderWrapper{
+    margin: 0 auto;
+}

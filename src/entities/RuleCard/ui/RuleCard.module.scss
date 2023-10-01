@@ -1,0 +1,92 @@
+.RuleCard{
+    position: relative;
+    display: grid;
+    flex-shrink: 0;
+    grid-gap: 44px;
+    grid-template-rows: 320px 60px;
+    border-radius: 15px;
+    padding: 27px 0 50px 35px;
+    width: 370px;
+    height: 500px;
+    background: var(--c-lightdark);
+    pointer-events: none;
+
+    @media (width <= 1440px) {
+        grid-template-rows: 250px 60px;
+        padding-left: 30px;
+        width: 277px;
+        height: 400px;
+    }
+
+    @media (width <= 1024px) {
+        grid-template-rows: 235px 60px;
+        width: calc(370px / 1.2);
+        height: calc(500px / 1.2);
+    }
+
+    @media (width <= 425px) {
+        grid-gap: 15px;
+        grid-template-rows: 200px 30px;
+        padding: 25px 0 15px 15px;
+        width: 217px;
+        height: 300px;
+
+    }
+}
+
+.number {
+    position: absolute;
+    left: 35px;
+    top: 50px;
+
+    @media (width <= 1440px) {
+        left: 20px;
+        top: 30px;
+        width: 67px;
+        height: 95px;
+        
+        img {
+         width: 100%;
+         height: 100%;
+         object-fit: contain;
+        }
+     }
+
+    @media (width <= 1024px) {
+       left: 20px;
+       top: 30px;
+       width: 53px;
+       height: 75px;
+
+       img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+       }
+    }
+}
+
+.title {
+    font-family: inherit;  
+    font-size: var(--fz-m); 
+    line-height: 1.2;
+    
+    @media (width <= 1440px) {
+        font-size: var(--fz-ms);
+    }
+
+    @media (width <= 425px) {
+        font-size: var(--fz-ms);
+
+    }
+}
+
+.sticker {
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}

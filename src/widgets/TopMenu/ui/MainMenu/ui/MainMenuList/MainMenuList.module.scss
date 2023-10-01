@@ -1,0 +1,28 @@
+.MenuList {
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+
+    &__button {
+        margin: 15px 0 24px;
+    }
+
+    &__close {
+        all: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        margin: auto;
+        width: 170px;
+        height: 60px;
+        cursor: pointer;
+
+        & svg {
+            width: 35px;
+            height: 35px;
+        }
+
+    }
+}

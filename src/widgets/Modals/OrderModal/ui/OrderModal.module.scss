@@ -1,0 +1,64 @@
+
+.OrderEmptyModal{
+    height: 160vh;
+}
+
+.OrderModal {
+    padding: 0 60px 60px;
+    width: 1009px;
+
+    &__logo {
+        position: relative;
+        margin: 50px 0 60px;
+        height: 125px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        @media (width <= 697px) {
+            margin-bottom: 25px;
+        }
+        
+    }
+
+    &__price {
+        font-weight: 400;
+        font-size: var(--fz-lxx);
+        line-height: 0.9em;
+        color: transparent;
+        background: linear-gradient(rgb(241 198 221 / 100%), rgb(193 164 232 / 100%), rgb(184 226 251 / 100%), rgb(242 239 232 / 100%), rgb(249 220 221 / 100%), rgb(225 193 229 / 100%), rgb(189 175 227 / 100%), rgb(199 237 235 / 100%), rgb(231 245 235 / 100%), rgb(242 240 231 / 100%), rgb(221 193 225 / 100%));
+        background-clip: text;
+        
+        
+    }
+
+    &__title {
+        margin: 25px 0 65px;
+        font-weight: 400;
+        font-size: var(--fz-lx);
+        line-height: 1.11em;
+        color: var(--c-gray);
+
+        @media (width <= 697px) {
+            margin-bottom: 25px;
+        }
+    }
+
+    &__form {}
+
+    @media (width <= 1024px) {
+        width: 95vw;
+    }
+
+    
+
+    @media (width <= 500px) {
+        padding: 0 20px 29px;
+        width: 95vw;
+    }
+
+
+}

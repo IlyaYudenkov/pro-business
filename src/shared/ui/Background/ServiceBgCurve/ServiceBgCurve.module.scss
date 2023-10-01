@@ -1,0 +1,56 @@
+.BottomBgCurves{
+    position: absolute;
+    left: -95%;
+    top: -100%;
+    z-index: -1;
+    overflow: hidden;
+    width: 99vw;
+    height: 200vh;
+    transform: rotate(27deg) scale(1.1);
+    
+    @media (width <= 1440px) {
+        left: -90%;
+        top: -50%;
+    }
+
+    @media (width <= 1024px) {
+        left: -192%;
+        width: 211vw;
+    }
+
+    @media (width <= 425px) {
+        left: -72%;
+        top: -5%;
+        width: 99vw;
+        height: 52vh;
+    }
+
+    
+}
+
+.leftCurve{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    animation: fade-in 1s ease-in-out;
+
+    img {
+        object-fit: cover;
+    }
+}
+
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        
+    }
+
+    100% {
+        opacity: 1;
+        
+    }
+}

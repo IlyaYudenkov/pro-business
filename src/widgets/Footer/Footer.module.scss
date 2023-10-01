@@ -1,0 +1,51 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+
+    &__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.info {
+    &__date {
+        font-family: 'RG StandartBold', sans-serif;
+        font-size: var(--fz-smm);
+        line-height: 1.38em;
+        letter-spacing: 0.18px;
+        text-align: center;
+        color: var(--c-gray);
+    }
+
+    &__madeBy {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+}
+
+.madeBy {
+    &__team {
+        margin-right: 10px;
+        font-weight: 400;
+        font-style: normal;
+        font-size:  var(--fz-smm);
+        line-height: 1.38em;
+        letter-spacing: 0.18px;
+        text-align: center;
+        color: var(--c-gray);
+    }
+
+    &__icon {
+        padding-top: 4px;
+
+        & svg {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+

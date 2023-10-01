@@ -1,0 +1,58 @@
+.MenuItem {
+    border-bottom: 1px solid rgb(255 255 255 / 40%);
+    width: 407px;
+
+    & button {
+        all: unset;
+        display: block;
+        padding: 20px;
+        width: 100%;
+        font-size: var(--fz-m);
+        line-height: 1.13em;
+        letter-spacing: 0.22px;
+        text-decoration: none;
+        color: var(--c-gray);
+        transition-duration: 0.3s;
+        cursor: pointer;
+
+        &:hover {
+            color: var(--c-green);
+            transition-duration: 0.3s;
+        }
+    }
+}
+
+.MenuItemNoBorder {
+    width: 407px;
+
+    /* stylelint-disable-next-line no-descending-specificity */
+    & button {
+        all: unset;
+        display: block;
+        padding: 20px;
+        width: 100%;
+        font-size: var(--fz-m);
+        line-height: 1.13em;
+        letter-spacing: 0.22px;
+        text-decoration: none;
+        color: var(--c-gray);
+        transition-duration: 0.3s;
+        cursor: pointer;
+
+        &:hover {
+            color: var(--c-green);
+            transition-duration: 0.3s;
+        }
+    }
+}
+
+.MenuItemNoBorder, .MenuItem {
+    @media (width <= 425px) {
+        // width: 300px;
+
+        // & button {
+        //     padding: 10px 20px;
+        //     font-size: var(--fz-ms);
+        // }
+    }
+}

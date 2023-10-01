@@ -1,0 +1,13 @@
+.SvnScreen{
+    position: relative;
+    overflow: hidden;
+    margin: 130px 0;
+
+    @media (width <= 768px) {
+        margin-top: 60px;
+    }
+
+    @media (width <= 500px) {
+        margin: 50px 0;
+    }
+}

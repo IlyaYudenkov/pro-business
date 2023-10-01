@@ -1,0 +1,25 @@
+.EightScreen {
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 0 65px;
+    border-radius: 15px;
+    padding: 50px 50px 50px 45px;
+    width: 100%;
+    background: var(--c-lightdark);
+    backdrop-filter: blur(15px);
+
+    &__form{
+        
+    }
+
+    @media (width <= 1200px) {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    @media (width <= 586px) {
+        padding: 20px 20px 20px 25px;
+        width: 100%;
+
+    }
+}

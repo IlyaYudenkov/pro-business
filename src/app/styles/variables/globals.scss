@@ -1,0 +1,50 @@
+:root {
+  // font
+  --ff: 'NT Somic', serif;
+  --ff-grotesk: 'RG Book', serif;
+  --fz-xxxxl: 5.875rem;
+  --fz-xl: 3.375rem;
+  --fz-lxxx: 2.625rem;
+  --fz-lxx: 2.5rem;
+  --fz-lx: 2.125rem;
+  --fz-l: 2rem;
+  --fz-mll: 1.75rem;
+  --fz-ml: 1.625rem;
+  --fz-m: 1.5rem;
+  --fz-ms: 1.375rem;
+  --fz-sm: 1.25rem;
+  --fz-smm: 1.125rem;
+  --fz-xs: 16px;
+
+
+  // colors 
+  --c-blue: #0047FF;
+  --c-gray: #FFF;
+  --c-white: #fff;
+  --c-green: #00FFB2;
+  --c-lightdark: #171717;
+  --c-black: #000;
+  --bg-color: #080808;
+
+  // gradients
+  --text-gradient: conic-gradient(from 212.65deg at 64.61% 55.41%, #F1C6DD 0deg, #C1A4E8 50.06deg, #B8E2FB 85.94deg, #F2EFE8 134.97deg, #F9DCDD 172.05deg, #E1C1E5 200.75deg, #BDAFE3 224.67deg, #C7EDEB 259.36deg, #E7F5EB 298.82deg, #F2F0E7 328.72deg, #DDC1E1 360deg), #FFF;
+
+
+
+  // dimesnsions 
+
+  --top-slider-card-width: 360px;
+  --top-slider-card-height: 537px;
+
+  @media (width <= 945px) {
+    --top-slider-card-width: calc(360px / 1.2);
+    --top-slider-card-height: calc(537px / 1.15);
+    --fz-xs: 14px;
+  }
+
+  @media (width <= 425px) {
+    --top-slider-card-width: 217px;
+    --top-slider-card-height: 355px;
+    --fz-xs: 12px;
+  }
+}

@@ -1,0 +1,64 @@
+.inputs {
+    &__select {
+        position: relative;
+
+        & select {
+            appearance: none;
+            border: 1px solid rgb(255 255 255 / 15%);
+            border-radius: 8px;
+            padding: 13px 20px;
+            width: 100%;
+            font-family: var(--ff);
+            font-size: var(--fz-sm);
+            line-height: 1.33em;
+            letter-spacing: 0.18px;
+            color: var(--c-gray);
+            background: var(--c-lightdark);
+            opacity: 0.5;
+            cursor: pointer;
+
+            &:required:invalid{
+                color: rgb(255 255 255 / 50%);
+            }
+
+            &:hover {
+                border: 1px solid rgb(255 255 255 / 30%);
+            }
+            
+            &.error {
+                border-color: red;
+            }
+
+        }
+
+    }
+}
+
+
+.select {
+    &__icon {
+        position: absolute;
+        right: 25px;
+        top: 50%;
+        width: 30px;
+        height: 30px;
+        transform: translate(0%, -50%);
+        pointer-events: none;
+    }
+}
+
+.errorMessage {
+    margin-top: 5px;
+    text-align: center;
+    color: red;
+}
+
+.errorIcon {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    transform: translate(0%, -95%);
+    pointer-events: none;
+}

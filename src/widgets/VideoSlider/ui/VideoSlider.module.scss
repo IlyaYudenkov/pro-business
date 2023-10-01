@@ -1,0 +1,41 @@
+
+
+.container{
+    
+}
+
+
+.navigation{
+}
+
+.back {
+    position: absolute;
+    left: calc(50% - 550px);
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+
+    @media (width <= 1024px) {
+        left: 50px;
+    }
+
+    @media (width <= 380px) {
+        left: 25px;
+    }
+}
+
+.next {
+    position: absolute;
+    right: calc(50% - 550px);
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%) rotate(180deg);
+
+    @media (width <= 1024px) {
+        right: 50px;
+    }
+
+    @media (width <= 380px) {
+        right: 25px;
+    }
+}

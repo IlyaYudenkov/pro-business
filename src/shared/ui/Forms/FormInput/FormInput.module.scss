@@ -1,0 +1,107 @@
+.formInput {
+    & input {
+        border: 1px solid rgb(255 255 255 / 15%);
+        border-radius: 8px;
+        padding: 13px 0 13px 20px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 1.125em;
+        line-height: 1.33em;
+        letter-spacing: 0.18px;
+        color: var(--c-gray);
+        background: var(--c-lightdark);
+        opacity: 0.5;
+        cursor: pointer;
+
+
+        &::placeholder {
+            font-size: var(--fz-sm);
+            color: rgb(255 255 255 / 50%);
+        }
+
+        &:hover{
+            border: 1px solid rgb(255 255 255 / 30%);
+        }
+
+        &.error{
+            border-color: red;
+        }
+
+        &.valid{
+            border-color: var(--c-green);
+        }
+    }
+
+    & textarea{
+            border: 1px solid rgb(255 255 255 / 15%);
+            border-radius: 8px;
+            padding: 13px 0 13px 20px;
+            width: 100%;
+            font-family: var(--ff);
+            font-size: var(--fz-sm);
+            line-height: 1.33em;
+            letter-spacing: 0.18px;
+            color: var(--c-gray);
+            background: var(--c-lightdark);
+            opacity: 0.5;
+            cursor: pointer;
+            resize: none;
+
+            &::-webkit-scrollbar{
+                display: none;
+            }
+
+            &::placeholder {
+                font-size: var(--fz-sm);
+                color: rgb(255 255 255 / 50%);
+            }
+
+            &:hover {
+                border: 1px solid rgb(255 255 255 / 30%);
+            }
+
+        &.error{
+            border-color: red;
+        }
+
+        &.valid{
+            border-color: var(--c-green);
+        }
+    }
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover, 
+    input:-webkit-autofill:focus,
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:hover,
+    textarea:-webkit-autofill:focus,
+    select:-webkit-autofill,
+    select:-webkit-autofill:hover,
+    select:-webkit-autofill:focus {
+        border: 1px solid rgb(255 255 255 / 15%);
+        font-size: var(--fz-sm);
+      -webkit-text-fill-color: var(--c-gray);
+      transition: background-color 5000s ease-in-out 0s;
+    }
+}
+
+.form{
+    &__checkbox {
+        margin: 22.5px 0 27.5px;
+        
+    }
+}
+
+.checkbox {
+    &__input {
+            margin-right: 15px;
+    }
+ 
+}
+
+.errorMessage{
+    margin-top: 5px;
+    text-align: center;
+    color: red;
+}
+

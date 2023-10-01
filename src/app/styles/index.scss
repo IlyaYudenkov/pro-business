@@ -1,0 +1,27 @@
+@import '../../shared/assets/fonts/font.css';
+@import './reset';
+@import './variables/globals';
+
+
+html {
+  font-family: var(--ff);
+  font-size: var(--fz-xs);
+  color: var(--c-white);
+  background: var(--bg-color);
+}
+
+.rootclass {
+  position: relative;
+}
+
+.quotedStory {
+  margin-bottom: 60px;
+  margin-left: 28px;
+  border-left: 2px solid var(--c-green);
+  padding-left: 25px;
+  font-weight: 400;
+  font-size: var(--fz-ms);
+  line-height: 1.45em;
+  letter-spacing: 0.22px;
+  color: var(--c-gray);
+}
